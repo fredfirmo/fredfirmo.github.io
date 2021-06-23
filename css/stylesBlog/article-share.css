@@ -1,0 +1,13 @@
+
+.share { 	display:flexbox;
+	justify-content:center;
+}
+
+.share img{
+   padding:0.75rem;
+	width: 1.50rem;
+	height: 1.50rem;
+	}
+
+
+img{width:100%}

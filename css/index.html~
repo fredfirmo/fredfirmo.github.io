@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./styles/styles.css" class="profile-center">
+<link rel="stylesheet" href="./styles/grids.css">
+<link rel="stylesheet" href="./styles/image.css">
+<link rel="stylesheet" href="./styles/texto.css">
+<link rel="stylesheet" href="./styles/imageText.css">
+<link rel="stylesheet" href="./styles/projectContainer.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--Header content-->
+<div class="header">
+    <img  src="./images/desertTree.jpg"  width=60% >
+    <div class="centered">
+<h1 class="oleoScript" style="color:white; opacity:0.5" > <b>Diálogos no Deserto</b></h1>
+<h5 class="oleoScript2" style="color:white; opacity:0.5">Narrativa e contra-narrativa</h5>
+</div><div>
+<hr>
+...
+<p style="font-size: 20px; color:#1F9AFE;">
+<a href="about.html">About this site</a>
+</p>
+...
+<div class="w3-card-4">
+
+<header class="w3-container w3-light-grey">
+ <h3 class="oleoScript2" ><b>Jogando cartas com o Demônio</b></h3>
+</header>
+
+<div class="w3-container" style="width:80%;">
+<div class="row">
+  <div class="column">
+    <img src="./images/clownSad.jpg" alt="Avatar" width=40% >
+   
+  <p class="center" style= "width:40%; font-family:Ubuntu; font-size:1rem"> Eu sou   Frederico Firmo físico, professor escritor aposentado.
+  No presente escrevo artigos, crônicas e poesia. Eventualmente faço modelos sobre a pandemia.</p>
+</div>
+<div class="w3-container column" style="text-align:left">
+  
+  <h5 class="oleoScript2">A arte da contra narrativa,<br> <span class="w3-opacity">April 7, 2014</span></h5>
+<div style="font-family:Ubuntu">
+  <p>Textos sobre um delírio coletivo. Tempos sombrios criados por uma negação da realidade, por uma negação da ciência.
+  Tempo onde o olhar se  recusa a ver.  Onde os significados,  mesmo  quando óbvios,  são apenas para alguns evidentes.
+  Quando o uso das palavras é feito sem  que se responsabilizem por elas.</p>
+  </div>
+  <div class="center" style="width:100%"><h1 class="oleoScript2">Na Terra Plana</h1><p class="oleoScriptPoesia "  > 	Pensamentos esparsos numa realidade rarefeita.<br> Especulações concretas num ambiente fluído.<br> Um vazio cheio de nada.<br>
+  A superficialidade de uma reflexão plana.<br> A profundidade de uma poça d'água</p></div>
+</div>
+
+</div>
+</div></div>
+</div>
+
+
+. . .
+<!--Section 2: About me-->
+
+
+
+
+    <hr style="double solid black width:5px">
+  <!--Section 3: Projects-->
+  <section>
+    <div class="header">
+      <h1 class="oleoScript" >Blog</h1>
+    </div>
+
+    <div class="container">
+    <div class="cell cell-1">
+ <a href="posts.html">
+      <img src="./images/savannah.jpg" width=100%></a>
+    <h1 class="bg-text">Crônicas</h1></div>
+    <div class="cell cell-2"><img src="./images/oliveira.jpeg" width=80%>
+    <h1 class="bg-text">Devaneios</h1></div>
+    <div class="cell cell-3"><img src="./images/tree.jpg" width=100%>
+    <h1 class="bg-text">Poesias</h1></div></div>
+
+
+    . . .
+
+    <div class="footer">
+      <p class="footer-text-left">
+        <a href="index.html" class="menu">home</a>
+        <a href="https://css.sammy-codes.com/about.html" class="menu">about</a>
+        <a href="https://css.sammy-codes.com/credits.html" class="menu">credits</a>
+      </p>
+    </div>
+
+    <div class="footer-content-right">
+  <a href="https://github.com/digitalocean"><img src="images/github.jpeg" class="icon-style" alt="Github icon"></a>
+  <a href="https://www.twitter.com/DigitalOcean"><img src="images/twitter.jpeg" class="icon-style" alt="Twitter icon"></a>
+  <a href="https://www.twitter.com"><img src="images/email.jpeg" class="icon-style" alt="Emailicon"></a>
+</div>

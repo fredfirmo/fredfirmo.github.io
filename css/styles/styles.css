@@ -1,0 +1,187 @@
+
+
+.div-1 {
+  background-color: blue;
+  height: 50px;
+  width: 60px;
+  font-size: 10px;
+  color: white; iu
+}
+
+.div-2 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+  color: yellow;
+}
+
+.div-3 {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  font-size:30px;
+  color: blue;
+}
+
+.borda {
+  border: 2px solid red;
+  border-radius: 8px;
+  width: 200px;
+}
+.black-img {
+  border: 5px dotted black;
+  border-radius: 10%;
+  width: 200px;
+}
+
+.yellow-div {
+  background-color:yellow;
+  width: 500px;
+  padding:25px;
+  margin:50px 0 0 50px;
+  border: 5px solid black;
+}
+
+.yellow-img {
+  border: 25px solid yellow;
+  border-radius: 50%;
+}
+
+.red-img {
+  border: 15px double red;
+}
+#my-first-id{
+  color:blue;
+}
+
+.nav {
+  background-color: beige;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+span.il {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+
+span.ib {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+
+span.b {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+
+
+. . .
+/* Include padding and border in total box size*/
+
+. . .
+/* Large profile image */
+.large-profile {
+  background-image:   url("./images/surfaceRaindrops.jpg")  ;
+  background-size: cover;
+  background-position: center;
+}
+. . .
+
+/*  Section 3  */
+
+.section-heading {
+  text-align:center;
+  color:#102C4E;
+  margin-top: 150px;
+  margin-bottom:70px;
+  font-size: 35px;
+}
+. . .
+/* Sizing for Project Containers  */
+
+.column-4 {
+  float: left;
+  width: 21%;
+  padding: 10px;
+  margin:20px;
+  height: 250px;
+}
+. . .
+
+/* Color and Images for Project Containers  */
+
+.project-1 {
+  background: <img src='./images/tree.jpg' style="width:40%">;
+  background-size: cover;
+}
+
+.project-2 {
+  background-color:white;
+}
+
+.project-3 {
+  background-color:#209BFF;
+}
+
+.project-4 {
+  background-color:#112d4e;
+}
+
+.project-5 {
+  background-color:#F9F7F7;
+}
+
+.project-6 {
+  background-color:#209BFF;
+}
+
+.project-7 {
+    background-color:#ffffff00;
+}
+
+.project-8 {
+  background: url('../images/tree2.jpg' width=30%);
+  background-size: cover;
+}
+
+
+.project-text {
+  text-align:center;
+  font-size:50px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
