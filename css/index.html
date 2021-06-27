@@ -56,67 +56,119 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
   padding: 2rem;
   text-align: left;
 }
-
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+.topnav a {
+  float: left;
   display: block;
-  transition: 0.3s;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
-.sidenav .closebtn {
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
   position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-.sidenav a:hover:not(.active) {
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #555;
   color: white;
 }
 
-@media screen and (max-width: 600px) {
-  .sidenav {padding-top: 15px;
-            height:auto;
-            position:relative;}
-  .sidenav a {float:left;font-size: 18px;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-@media screen and ( max-width:400px){
-  .sidenav a{
-    text-align:center;
-    float:none}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.
 </style>
 <body class="w3-black">
 
 
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+<div class="topNav" id="myTopnav">
   <!-- Avatar image in top left corner -->
-  <img src="./images/clownSad.jpg" style="width:50%">
+  <img src="./images/clownSad.jpg" style="width:10%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -125,18 +177,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
     <i class="glyphicon glyphicon-leaf w3-xxlarge"></i>
     <p><span style="font-size:15px;cursor:pointer" onclick="openNav()">&#9776; ABOUT</span></p>
   </a>
-  <a href="#Escritos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="glyphicon glyphicon-pencil w3-xxlarge"></i>
-    <p>Meus escritos</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p> Escritos</p>
+    </a>
+  
+   
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="glyphicon glyphicon-blackboard w3-xxlarge"></i>
     <p>Lectures</p>
   </a>
-</nav>
+</div>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+<div class="w3-top w3-hide-large w3-hide-medium w3-hide-small" id="topNav">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
@@ -149,8 +203,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo oleoScript w3-text-white "><span class="w3-hide-small">Diálogos </span> no deserto</h1>
-    <h2 class="w3-xlarge oleoScript w3-text-white"><span class="w3-hide-small">Narrativas<span > e Contranarrativas </h1>
+    <h1 class="w3-jumbo oleoScript w3-text-white ">Diálogos  no deserto</h1>
+    <h2 class="w3-xlarge oleoScript w3-text-white"><span class="w3-hide-small">Narrativas e Contranarrativas<span > </h1>
 
     <img src="./images/desertTree.jpg" alt="boy" class="w3-image" width="496" height="554">
   </header>
@@ -162,9 +216,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 
 <div class= "w3-container">
 <div class="grid" >
-  <div class="grid-item"><img src="./images/clownSad.jpg" alt="Avatar" width=30% ></div>
+  <div class="grid-item"><img src="./images/clownSad.jpg" alt="Avatar" width=100vw ></div>
   <div class="grid-item">
-<p class="left" style=" font-family:Ubuntu; font-size:2rem;float:left; margin-left:0;"> Eu sou   Frederico Firmo físico, professor, escritor, aposentado.
+<p class="left" style=" font-family:Ubuntu; font-size:2vw;float:left; margin-left:0;"> Eu sou   Frederico Firmo físico, professor, escritor, aposentado.
   		No presente escrevo artigos, crônicas e poesia. Eventualmente faço modelos sobre a pandemia.</p>
   </div>
 </div>
@@ -173,7 +227,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 <br>
 
 <header class="w3-container ">
- <h3 class="oleoScript2  w3-text-white " ><b>Jogando cartas com o Demônio</b></h3>
+ <h3 class="oleoScript2  w3-text-white "  ><b>Jogando cartas com o Demônio</b></h3>
 <hr>
 </header>
 
@@ -195,30 +249,30 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 <hr>
 
 <h3 class="oleoScript2  w3-text-white w3-center">Meus Escritos</h3>
-<div class="w3-content" style="margin:120px">
+<div class="w3-content" style="auto">
   <div class="w3-white">
     <div class="w3-dark-grey" style="height:28px;width:95%"></div>
   </div>
 
-    <p class="w3-wide"><a href="posts.html"> <img src="./images/moonTouch.jpg" width=20%></a>    Crônicas de um tempo louco.</p>
+    <p class="w3-wide"><a href="posts.html"> <img src="./images/moonTouch.jpg" width=30%></a>    Crônicas de um tempo louco.</p>
 
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
-    <p class="w3-wide"><a href="devaneios.html"><img src="./images/oliveira.jpeg" width=20%></a>  Devaneios num tempo louco</p>
+    <p class="w3-wide"><a href="devaneios.html"><img src="./images/oliveira.jpeg" width=30%></a>  Devaneios num tempo louco</p>
 
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
-    <p class="w3-wide"><a href="poesias.html"><img src="./images/tree.jpg" width=20%></a>  Poesias</p>
+    <p class="w3-wide"><a href="poesias.html"><img src="./images/tree.jpg" width=30%></a>  Poesias</p>
 
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
 
-      <p class="w3-wide"><a href="lectures.html"> <img src="./images/blackboard.jpg" width=20%></a>    Lectures</p>
+      <p class="w3-wide"><a href="lectures.html"> <img src="./images/blackboard.jpg" width=30%></a>    Lectures</p>
 <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+        <div class="w3-dark-grey" style="height:28px;width:95%"></div>
       </div>
     </div>
     </div>
@@ -232,11 +286,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Florianópolis, Br</p>
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: fredfirmol@gmail.com</p>
     </div><br>
-    <p>Let's get in touch. Send me a message:</p>
+    <p>Deixe uma mensadagem:</p>
 
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
