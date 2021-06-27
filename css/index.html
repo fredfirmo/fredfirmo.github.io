@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Dialogos no deserto</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -24,8 +24,8 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <script>
 			function openNav() {
-  			document.getElementById("mySidenav").style.width = "250px";	
-			}	
+  			document.getElementById("mySidenav").style.width = "250px";
+			}
 
 			function closeNav() {
   			document.getElementById("mySidenav").style.width = "0";
@@ -58,8 +58,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 }
 
 .sidenav {
-  height: 80%;
-  width: 0;
+  height: 100%;
+  width: 200px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -91,12 +91,27 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
   margin-left: 50px;
 }
 
-@media screen and (max-width: 800px) {
-  .sidenav {padding-top: 15px; diplay:none;}
-  .sidenav a {font-size: 18px; display:none}
+.sidenav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .sidenav {padding-top: 15px;
+            height:auto;
+            position:relative;}
+  .sidenav a {float:left;font-size: 18px;}
+}
+
+@media screen and ( max-width:400px){
+  .sidenav a{
+    text-align:center;
+    float:none}
 }
 </style>
 <body class="w3-black">
+
+
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
@@ -121,7 +136,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" >
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
@@ -136,21 +151,21 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo oleoScript w3-text-white "><span class="w3-hide-small">Diálogos </span> no deserto</h1>
     <h2 class="w3-xlarge oleoScript w3-text-white"><span class="w3-hide-small">Narrativas<span > e Contranarrativas </h1>
-   
+
     <img src="./images/desertTree.jpg" alt="boy" class="w3-image" width="496" height="554">
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">My Name</h2>
+    <h2 class="w3-text-light-grey">Meu Nome</h2>
     <hr style="width:200px" class="w3-opacity">
 
-<div class= "w3-container"> 
+<div class= "w3-container">
 <div class="grid" >
-  <div class="grid-item"><img src="./images/clownSad.jpg" alt="Avatar" width=60% ></div>
+  <div class="grid-item"><img src="./images/clownSad.jpg" alt="Avatar" width=30% ></div>
   <div class="grid-item">
-<p class="left" style=" font-family:Ubuntu; font-size:2rem"> Eu sou   Frederico Firmo físico, professor, escritor, aposentado.
-  		No presente escrevo artigos, crônicas e poesia. Eventualmente faço modelos sobre a pandemia.</p>  
+<p class="left" style=" font-family:Ubuntu; font-size:2rem;float:left; margin-left:0;"> Eu sou   Frederico Firmo físico, professor, escritor, aposentado.
+  		No presente escrevo artigos, crônicas e poesia. Eventualmente faço modelos sobre a pandemia.</p>
   </div>
 </div>
 </div>
@@ -158,9 +173,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 <br>
 
 <header class="w3-container ">
- <h3 class="oleoScript2  w3-text-white" ><b>Jogando cartas com o Demônio</b></h3>
-</header>
+ <h3 class="oleoScript2  w3-text-white " ><b>Jogando cartas com o Demônio</b></h3>
 <hr>
+</header>
+
 <div class="w3-container column" style="text-align:left">
 
   <h5 class="oleoScript2 w3-center w3-text-white ">A arte da contra narrativa<h5> <h6> <span class="w3-opacity">April 7, 2014</span></h6>
@@ -176,67 +192,38 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 </div>
 
 </div>
-</div></div>
 <hr>
-<div class="w3-content " style="margin:120px">
-    <h3 class="oleoScript2  w3-text-white">Meus Escritos</h3>
+
+<h3 class="oleoScript2  w3-text-white w3-center">Meus Escritos</h3>
+<div class="w3-content" style="margin:120px">
+  <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+  </div>
+
     <p class="w3-wide"><a href="posts.html"> <img src="./images/moonTouch.jpg" width=20%></a>    Crônicas de um tempo louco.</p>
-   
+
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
     <p class="w3-wide"><a href="devaneios.html"><img src="./images/oliveira.jpeg" width=20%></a>  Devaneios num tempo louco</p>
-    
+
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:85%"></div>
     </div>
     <p class="w3-wide"><a href="poesias.html"><img src="./images/tree.jpg" width=20%></a>  Poesias</p>
 
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div> 
-	<p class="w3-wide"><a href="lectures.html"><img src="./images/blackboard.jpg" width=20%></a>  Lectures</p>
-	
-    </div>
-    
-    <hr>
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
 
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>John Doe saved us from a web disaster.</p><br>
-    
-    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than John Doe.</p>
-  <!-- End About Section -->
-  </div>
-  
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
+      <p class="w3-wide"><a href="lectures.html"> <img src="./images/blackboard.jpg" width=20%></a>    Lectures</p>
+<div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+      </div>
+    </div>
+    </div>
+
+    <hr>
 
 
   <!-- Contact Section -->
@@ -264,7 +251,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
     </form>
   <!-- End Contact Section -->
   </div>
-  
+
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
