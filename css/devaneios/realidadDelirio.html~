@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,
+700,700i,900,900i">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../stylesBlog/reset.css">
+<link rel="stylesheet" href="../stylesBlog/~debug.css">
+<link rel="stylesheet" href="../stylesBlog/article-image.css">
+<link rel="stylesheet" href=../"stylesBlog/article.css">
+<link rel="stylesheet" href="../stylesBlog/article-text.css">
+<link rel="stylesheet" href="../stylesBlog/article-share.css">
+<link rel="stylesheet" href="../stylesBlog/article-figure.css">
+
+  </head>
+
+<body>
+<div class="w3-container w3-black">
+
+ <div class="wrapper">
+    <div class=" box">
+    <img    src="../images/carnivalVenice.jpg" >
+    </div>
+
+    </div>
+
+
+    <article id="Brujas" >
+    
+    div class="wrapper">
+      <div class="box">
+    <h1><a href="#Brujas">Realidade ou Delírio: será que estamos num hospício?</a></h1>
+  
+
+
+      <time datetime"17-03-2016">17 MAR 2016</time>
+      <p>&nbsp;<strong><a href="https://jornalggn.com.br/author/frederico-firmo/">Frederico Firmo</a></strong></p>
+</div>
+</div>
+<hr>
+<div class="wrapper">
+    <div class=" box">
+
+<p>Se dissessem que nossas vidas seriam geridas por mentiras deslavadas, por destruição total de significados, por inconsistências, incoerências, negações lógicas, inversões da causalidade, por negações de fatos. Se déssemos, em nossa vida, espaço constante para que os delírios de seres delirantes fossem repetidos dia a dia até que nos deixassem em dúvida a realidade. Se dissessem que eu iria ver e ouvir mentiras cínicas e conviveria ao lado de pessoas que não apenas as propagam, mas também as acreditam reais. Se eu convivesse com pessoas dispostas a tudo para destruir um ilusório bicho papão que elas mesmas criaram e que segundo elas existe de fato<p>
+
+<p>Se eu dissesse que as visões estão tão turvas que dentro do delírio criado, eu posso criar qualquer coisa e terei tanta força que poderei destruir a realidade. Alguém me diria que eu enlouqueci.<p>
+
+<p>Se alguém me dissesse que numa peça jurídica eu veria promotores negarem a existência de fatos e documentos de fé publica, e os veria criar uma acusação , com base em seus próprios delírios. E tudo isto escrito em papel timbrado . Se me dissessem que um delator qualquer, pressionado e torturado seria premiado com liberdade e dinheiro. Se uma peça literária , que cria personagens , atos, delírios, ilações suspeitas se torna uma peça jurídica. Se esta peça literária se torna pelo chamado jornalismo de fatos, numa prova. E tudo isto feito de forma explícita. Alguém diria que eu enlouqueci.</p>
+
+<p>Quando a palavra cinismo, perde seu significado e se torna algo natural. Quando a incoerência é explicita. Quando manipulação diária quer me fazer acreditar que existe uma causa determinística que faz com que as ações da bolsa subam ou caiam. Quando me mostram gráficos diários, com dados inconsistentes e incoerentes, manipulação de escalas e interpretações ficcionais antes ou depois da previsão meteorológica. Quando agentes de propaganda e marketing se dizem jornalistas. Quando jornalistas praticamente se suicidam moralmente em nossa frente deturpando fatos e dados, cumprindo o papel diário de manter vivo o delírio.</p>
+
+<p>Quando nossa realidade, isto é, nossas vidas, nossa economia e até nossas relações é governada e dirigida por uma operação quimérica que perpetua o que ela diz que combate, ao deixar claro e explicito em várias manifestações os seus
+  objetivos político midiáticos.<p>
+
+<p>Quando todo dia uma peça literária de péssima qualidade , travestida de delação ou de peça jurídica, tem o poder de abalar a economia, os empregos, as instituições as vidas de cada um de nós, eu concluo que estão
+ transformando meu país num hospício, onde em breve não saberemos mais distinguir entre o que é real ou o que é puro delírio.</p>
+
+</div>
+</div>
+
+    </article>
+
+</div>
+  </body>
+
+</html>

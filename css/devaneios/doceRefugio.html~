@@ -1,0 +1,67 @@
+<html>
+<title>W3.CSS Template</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,
+700,700i,900,900i">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../stylesBlog/reset.css">
+<link rel="stylesheet" href="../stylesBlog/~debug.css">
+<link rel="stylesheet" href="../stylesBlog/article-image.css">
+<link rel="stylesheet" href=../"stylesBlog/article.css">
+<link rel="stylesheet" href="../stylesBlog/article-text.css">
+<link rel="stylesheet" href="../stylesBlog/article-share.css">
+<link rel="stylesheet" href="../stylesBlog/article-figure.css">
+
+  </head>
+  <body>
+  <div class="w3-container w3-black">
+    <div class="wrapper">
+    <div class=" box">
+    
+    <img  style="padding:10px 10px 10px 0; width:70%; " src="../images/doceRefugio.png" >
+    <figcaption style="font-size:0.5rem"> <em>Olinda Evangelista</em></figcaption>
+    </figure>
+    </div>
+
+    </div>
+
+
+
+
+
+      <article id="doceRefugio" >
+      <div class="wrapper">
+ 		   <div class=" box">
+      		<h1 ><a href="#doceRefugio">Doce refúgio.</a></h1>
+      
+      		<p> Frederico Firmo</p>
+
+        			<time datetime"17-11-2016">17 NOV 2016</time>
+        	</div>
+        	</div>		
+
+<div class="wrapper">
+    <div class=" box">
+<p>Eu estava folheando o blog do Nassif, aliás folhear não é um termo de blog mas talvez seja a saudade do passado,
+ o que é um pleonasmo, já que não se pode ter saudade do futuro.</p>
+<p>Ôpa! pensando melhor e mudando de opinião, eu acho que posso sentir saudade de um futuro, afinal a gente pode até ter um futuro em mente que a realidade roubou. Aliás roubam tudo e últimamente roubam a realidade e principalmente os sonhos. Eu pensei que era só na academia, onde os pós modernos teimam em dizer que a realidade é uma criação de nossa mente.</p>
+<p>Embora não concorde com esta idéia, eu gosto muito de criações, eu gosto do dedo de prosa. Gosto de falar com aquele que não mente, apenas embeleza o mundo. Gosto de histórias de pescador, gosto da poesia, gosto de ler o texto do Rui, da Maria Luiza, do Urariano, do Romulo e não vou citar quantos outros, todos embaixo daquele nome bonito chamado Cultura.</p>
+<p>Queria não viver correndo para poder parar e ouvir a música. Ah! a música!! Mas de folha em folha, eu inevitavelmente chego naquele lugar chamado Política. Também é um lugar criativo, falam de peças jurídicas risíveis, mas que não me causam riso.Tem mordomo de filme de horror, vampiro brasileiro, filhinho da mamãe e da outra também. Tem ungidos por Deus que fazem o diabo, enfim um lugar dos infernos.É tudo muito obscuro, tudo parece um pesadelo.</p>
+<p>Em benefício da realidade, lá escrevem um monte de Don Quixotes , inclusive eu, que brandem suas espadas contra moinhos que esfarelam nossa realidade, nossos sonhos e nossas mentes. Eu amo Don Quixote, pois sem ele os moinhos só serviriam para contar o passar do tempo. Assim como amo Chaplin, principalmente quando teimava em apertar parafusos e levantar bandeiras. Mas confesso que estou quase louco com a falta de criatividade criativa daqueles outros, que escrevem em geral em outros lugares.</p>
+<p>Hoje eu vi um juiz impedir a liberdade de uma pessoa, afirmando que posta em liberdade há o perigo de continuar praticando crimes, que ainda não se sabe se cometeu. Isto é o que chamo de falta de criatividade criativa. O mais incrível é que ele escreve e deixa o discurso gravado num documento oficial. Eu soube por um certo mordomo do Jaburu, que diz ser a prova de que, uma vez no papel tudp se torna realidade. Eu acho que o mordomo defende a tal da pós modernidade.</p>
+<p>Por aí tem um cara de camisa preta que tem criado uma realidade…, ou será um pesadelo. Sei lá, eu só sei que ando com saudade da modernidade. Mas eu tive uma idéia, será que se todos migrarem para a secção de Cultura , um Doce Refúgio, e escreverem, escreverem, poetarem, poetarem, musicarem, musicarem, será que a gente resgata o mundo? Sei não, mas mesmo assim ia ser bom.</p>
+</div>
+</div>
+
+
+    </article>
+</div>
+
+  </body>
+
+</html>
