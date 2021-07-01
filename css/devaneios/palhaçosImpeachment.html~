@@ -1,0 +1,74 @@
+<html>
+<title>W3.CSS Template</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,
+700,700i,900,900i">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../stylesBlog/reset.css">
+<link rel="stylesheet" href="../stylesBlog/~debug.css">
+<link rel="stylesheet" href="../stylesBlog/article-image.css">
+<link rel="stylesheet" href=../"stylesBlog/article.css">
+<link rel="stylesheet" href="../stylesBlog/article-text.css">
+<link rel="stylesheet" href="../stylesBlog/article-share.css">
+<link rel="stylesheet" href="../stylesBlog/article-figure.css">
+  </head>
+  <body>
+  <div class="w3-container w3-black">
+    <div class="wrapper">
+    <div class=" box">
+    <fire>
+    <img  style="padding:10px 10px 10px 0; width:70%; " src="../images/clownSad.jpg" >
+    </figure>
+    </div>
+
+    </div>
+
+
+
+
+
+      <article id="palhaco" >
+      
+      <div class="wrapper">
+    		<div class=" box">
+      
+      <h1 ><a href="#palhaco">Palhaços do Impeachment.</a></h1>
+
+        <time datetime"28-08-2016">28 AGO 2016</time>
+
+<p> Frederico Firmo</p>
+     </div>
+     </div>
+
+<div class="wrapper">
+    <div class=" box">
+<p><strong>Comentário referente ao post&nbsp;<a href="http://jornalggn.com.br/noticia/somos-os-palhacos-do-impeachment-por-luis-fernando-verissimo">“Somos os palhaços do impeachment, por Luis Fernando Veríssimo</a></strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Os palhaços tem olhos tristes&nbsp; pois sabem  que os risos podem ser cruéis, podem não ter consciência e não são sequer para ele, mas sim  para aqueles que dele  riem ou simplesmente fazem caretas. Alguns sorriem porque se identificam com a tristeza do palhaço,  sorriem envergonhados por que se reconhecem no palhaço. Nesta ópera bufa, com um roteiro fétido e pútrido, gestado nas profundezas, com todos os requintes dos clássicos das traições, se tem o roteiro&nbsp; daquelas peças que trazem a tona todas as fraquezas humanas e que as transformam na força motor de maior destruição. Mas nisto, onde estaria o lugar do palhaço.  Estamos vendo a triste figura de  presidente do circo, Lewandowski, aquele que  foi atacado, achincalhado, acusado e numa ironia cruel vai se tornar  a figura central desta ópera. Talvez  pela própria omissão. No meio do picadeiro   triste como o palhaço vai afiançar  e  legitimar o ilegitimável.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Poderia ser um roteiro de filme sobre a máfia, com juízes fazendo a figuração num julgamento com jurados comprados. Mas é pior, pois não é um criminoso que está no banco dos réus. Na verdade a Justiça está no banco dos réus, na verdade&nbsp; a Polícia está no banco dos réus, na verdade a Política esta no banco dos réus. Todos sem exceção&nbsp; sabem do que se trata e sabem da farsa que representam. Mas todos se apegam a seus papéis, enquanto outros,  já alienados, acreditam na própria ficção. Enquanto isto quem&nbsp; preside&nbsp; o “Julgamento” tenta manter o teatro em pé, em vez de guardião da justiça vai se transformando em contrarregra desta ópera bufa, uma peça que se chama o SUICÍDIO DE NOSSAS INSTITUIÇÕES.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>E enquanto o suicídio das instituições vai se dando lentamente , Serra e seu grupo vão rapidamente matando o que há de melhor no país e vendendo os restos, num ataque que se bem sucedido vai&nbsp; nos transformar num coliseu, sem pão nem circo apenas  para  deliciar os olhares gozosos dos de sempre.</p>
+<!-- /wp:paragraph -->
+
+</div>
+</div>
+
+
+    </article>
+</div>
+
+  </body>
+
+</html>
