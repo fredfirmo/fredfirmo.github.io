@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<title>Cronicas</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,
+700,700i,900,900i">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../stylesBlog/reset.css">
+<link rel="stylesheet" href="../stylesBlog/~debug.css">
+<link rel="stylesheet" href="../stylesBlog/article-image.css">
+<link rel="stylesheet" href="../stylesBlog/article.css">
+<link rel="stylesheet" href="../stylesBlog/article-text.css">
+<link rel="stylesheet" href="../stylesBlog/article-share.css">
+<link rel="stylesheet" href="../stylesBlog/article-figure.css">
+
+
+  </head>
+<body>
+<article id="opiniao">
+<div class="w3-container w3-black">
+  <h1>Contra Narrativa</h1>
+ 
+ 
+   
+  <ul class="w3-ul w3-border ">
+    <li><h2>Formadores de Opinião</h2></li>
+    <li class="w3-padding-16">
+        <div class="w3-panel w3-card" style="width:70%">
+          <a href="../formadoresOpiniao/gabeira.html"><strong>Construindo a narrativa: Gabeira.</strong> <img src="../images/gabeira.jpeg" 
+          alt="Image" class="w3-left w3-margin-right" style="width:200px"></a>
+         <p>Uma crítica a um texto de Fernando Gabeira criticando a Vaza Jato advogando em defesa da Luta contra a corrupção.
+         Leniente com os abusos de  Moro e Dallagnol, Gabeira diz defender a Justiça. </p>
+       </li>
+        <li class="w3-padding-16">
+        <div class="w3-panel w3-card" style="width:70%">
+          <a href="../formadoresOpiniao/gaspariIntercept.html"><strong>Gaspari contra Intercept.</strong> 
+          <img src="../images/eliogaspari.jpg" alt="Image" class="w3-left w3-margin-right" style="width:200px"></a>
+         <p>Trabalhando com o imaginário social criado cuidadosamente nos últimos anos, Gaspari ataca os vazamentos obtidos pelo Intercept. Manipulando
+         a percepção pública sobre o papel do abuso de autoridade, Gaspari absolve Moro e condena Glenn  </p>
+       </li>
+   <li class="w3-padding-16">
+        <div class="w3-panel w3-card" style="width:70%">
+          <a href="../formadoresOpiniao/narrativasContraNarrativas.html"><strong>Narrativas e Contranarrativas: combatendo significados.</strong> 
+          <img src="../images/donQuijote.png" alt="Image" class="w3-left w3-margin-right" style="width:200px"></a>
+         <p>Quando a loucura começa o país como um todo  entra em delírio. Excitando os mais baixos instintos,
+          o imaginário popular é preenchido pela Lava Jato. O mais absurdo pode então ser narrado como se fosse óbvio. O mais leve sinal ou signo
+          não precisa de reflexão pois já é visto como prova, como forte evidência. </p>
+       </li>
+    <li class="w3-padding-16">
+      <div class="w3-panel w3-card" style="width:70%">
+        <a href="../formadoresOpiniao/ponde.html"><strong>Análise de redação do texto Terrorismo Digital de Pondé.</strong> <img src="./images/ponde1.jpg" 
+        alt="Image" class="w3-left w3-margin-right" style="width:200px"></a>
+       <p>Uma análise do artigo: Terrorismo Digital de Pondé na Folha de São Paulo de 17 de junho de 2019. Depois de analisado concluímos que não passaria no exame de redação do ENEN.  O texto é um terror.</p>
+     </li>
+       <li class="w3-padding-16">
+      <div class="w3-panel w3-card" style="width:70%">
+        <a href="../formadoresOpiniao/tragediaGregaFHC.html"><strong>FHC, uma tragédia quase grega.</strong> <img src="../images/tragediaGregaFHC.png" 
+        alt="Image" class="w3-left w3-margin-right" style="width:200px"></a>
+       <p>Comentário ao post “FHC e Lula: a inveja por trás da tragédia brasileira, por Luis Nassif“,GGN.
+       </p>
+       </li>
+           
+       
+     </ul>
+       
+</div>
+</article>
+</body>

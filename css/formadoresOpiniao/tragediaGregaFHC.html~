@@ -1,0 +1,58 @@
+
+<html>
+<title>W3.CSS Template</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,
+700,700i,900,900i">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../stylesBlog/reset.css">
+<link rel="stylesheet" href="../stylesBlog/~debug.css">
+<link rel="stylesheet" href="../stylesBlog/article-image.css">
+<link rel="stylesheet" href="../stylesBlog/article.css">
+<link rel="stylesheet" href="../stylesBlog/article-text.css">
+<link rel="stylesheet" href="../stylesBlog/article-share.css">
+<link rel="stylesheet" href="../stylesBlog/article-figure.css">
+
+  </head>
+  <body>
+    <div class="wrapper">
+    <div class=" box">
+    <img  style="padding:10px 10px 10px 0; width:90%;"  src="../images/tragediaGregaFHC.png">
+
+    </div>
+    </div>
+
+
+
+
+
+      <article id="fhc" >
+      <h1 ><a href="#fhc">FHC, uma tragédia quase grega.</a></h1>
+      
+      <p> Frederico Firmo</p>
+      <time datetime"22-09-2018">22 SET 2018</time>
+      <br>
+
+
+<p>Comentário ao post “FHC e Lula: a inveja por trás da tragédia brasileira, por Luis Nassif“
+</p><p>
+FHC é o simbolo maior de que o ódio e a inveja tem um papel dramático na história. De iluminista a defensor do obscurantismo, FHC impregnou  no imaginário de uma determinada casta deste país a noção  de que vale tudo para ferir os nossos inimigos eleitos. Criou escola com Cristovão, Marina, Marta, Temer, Paulinho …,  todos querendo ser quem odeiam.
+</p><p>
+O golpismo se alimentou sempre do espelho. Buscavam em Lula o próprio reflexo, por esta razão montaram as operações juridico-policiais contra a corrupção. Pois em cada membro desta casta política, policial ou judiciária, ao ver o mundo através do próprio espelho, tinham a convicção de que o outro lado se comportava do mesmo jeito. Todos olhando para os próprios esqueletos escondidos em seus armários, buscaram esqueletos em Lula e encontraram pedalinhos. Mas pretendendo não sujar as mãos colocaram os capitães do mato do judiciário, e da política,  para fazer o trabalho sujo. Com a cumplicidade da mídia projetaram a própria imagem  colando no inimigo a imagem da besta.  
+</p><p>
+E agora com a profunda irresponsabilidade de sempre os criadores não assumem o filho que geraram.
+FHC toma que o filho é seu.</p>
+
+
+    </article>
+
+
+  </body>
+
+
+</html>
