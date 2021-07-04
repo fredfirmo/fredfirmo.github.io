@@ -6,8 +6,13 @@ h2 {font:400 1.5rem/1.2 "Roboto";color:hsl(000,0%,33%);}
 time {font:700 1.0rem/1.2 "Roboto";color:hsl(250,100%,83%);}
 h3 {font:700 1.0rem/1.2 "Roboto";color:hsl(250,100%,67%);}
 /*p {font:400 1.0rem/1.5 "Roboto";color:hsl(000,0%,33%);}*/
+<<<<<<< HEAD
 h1{text-align:"center"; font-family: 'Ubuntu', sans-serif;font-size:3rem;}
 p{ font-family: 'Ubuntu', sans-serif;margin:10px;font-size:1rem}
+=======
+h1{text-align:"center"; font-family: 'Ubuntu', sans-serif;font-size:3rem}
+p{ font-family: 'Ubuntu', sans-serif;margin:10px;font-size:1rem;}
+>>>>>>> 76bdb1217e2468cc23296714205057a69278fe36
 figcaption p{font 500 1.0rem/1.5 "Roboto";color:hsl(000,0%,33%);}}
 
 a{box-shadow: inset 0 -0.25em hsl(55,100%,75%);}
