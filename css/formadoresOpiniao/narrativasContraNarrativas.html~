@@ -10,13 +10,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="stylesBlog/reset.css">
-<link rel="stylesheet" href="stylesBlog/~debug.css">
-<link rel="stylesheet" href="stylesBlog/article-image.css">
-<link rel="stylesheet" href="stylesBlog/article.css">
-<link rel="stylesheet" href="stylesBlog/article-text.css">
-<link rel="stylesheet" href="stylesBlog/article-share.css">
-<link rel="stylesheet" href="stylesBlog/article-figure.css">
+<link rel="stylesheet" href="../stylesBlog/reset.css">
+<link rel="stylesheet" href="../stylesBlog/~debug.css">
+<link rel="stylesheet" href="../stylesBlog/article-image.css">
+<link rel="stylesheet" href="../stylesBlog/article.css">
+<link rel="stylesheet" href="../stylesBlog/article-text.css">
+<link rel="stylesheet" href="../stylesBlog/article-share.css">
+<link rel="stylesheet" href="../stylesBlog/article-figure.css">
 
   </head>
   <body class="w3-beige">
@@ -29,7 +29,7 @@
 
     <div class="wrapper">
     <div class=" box">
-    <img    src="./images/donQuijote.png" >
+    <img    src="../images/donQuijote.png" >
     </div>
 
     </div>
@@ -56,9 +56,10 @@
 <p> Os significados de um discurso e/ou dos termos deste discurso dependem do cenário construído. O termo “populismo” no Brasil foi ganhando significado pouco a pouco pela mídia. Quem não lembra de Willian Waack e seu bordão: Será que o populismo acabou? O significado do termo foi sendo passo a passo construído pelo cenário criado com a divulgação  diuturna  das crises na Venezuela em oposição a  notícias falsamente promissoras da Argentina de Macri. A exacerbação do cenário de esgoto da Lava Jato, foi colando  o termo corrupção ao populismo e associando a governos não liberais. E  no processo  associaram  Lula, Dilma e  Kirchner ao velho populismo de Getúlio a Mussolini.
 
 </p><p>Escondendo a realidade do país, o  jornalismo  Lava-jato misturado ao jornalismo de crimes e violência criaram um cenário de ruínas e caos e construíram  significados passo a passo. As notícias frequentes de feminicídios, e LGBTcídios, neste  cenário,  associam diariamente e propositadamente as pautas identitárias ao caos e violência e à  “polarização”.  Afinal “polarização” identificada com conflito é atribuída à vítima para  torná-la  culpada pelo conflito.  Adicione os robots, que com suas frases repetitivas, reforçam e delimitam cenários sedimentando significados para as diversas tribos da rede. Os grupos ou tribos não se unem pela discussão ou debate mas pela cristalização dos cenários  e reafirmação de mesmos significados.
-</p><p> O significado de populismo abaixo, (retirado do post),</p>
+</p><p> O significado de populismo segundo Wodack,</p>
 <blockquote>
-“A eficácia do populismo assenta nas “experiências reais e vividas de incerteza e de risco, na sensação de segurança e de direito” para as quais sugere “soluções nostálgicas e dramáticas”. “Há uma confiança na liderança carismática” e, por outro lado, uma “desconfiança no debate, na discussão e na evidência”,</blockquote>
+“A eficácia do populismo assenta nas “experiências reais e vividas de incerteza e de risco, na sensação de segurança e de direito” para as quais sugere “soluções nostálgicas e dramáticas”. “Há uma confiança na liderança carismática” e, por outro lado, uma “desconfiança no debate, na discussão e na evidência”,
+</blockquote>
 <p>ganha uma outra releitura no cenário brasileiro.</p>
 
 <p>Wodak provavelmente se refere ao populismo fascista, que volta a atemorizar a Europa e USA. Mas, aqui,  Willian Waack torturava este mesmo significado pois seu objetivo era  lutar contra: a confiança na liderança carismática de Lula que se assentava nas “experiências reais e vividas”, na “sensação de segurança e de direito” obtidas
