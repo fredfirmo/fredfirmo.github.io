@@ -1,2 +1,4 @@
 #Ignore backup files
 *~
+#Ignore file already deleted
+"css/fatosNarrativas/implos\303\243oCapes.html"
