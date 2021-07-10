@@ -19,7 +19,14 @@
 <link rel="stylesheet" href="../stylesBlog/article-figure.css">
 
   </head>
-  <body>
+  <body class="w3-black">
+    
+    <div class="wrapper">
+    <div class=" box">
+     <h1 ><a href="#fhc">FHC, uma tragédia quase grega.</a></h1>
+    </div>
+    </div>
+  
     <div class="wrapper">
     <div class=" box">
     <img  style="padding:10px 10px 10px 0; width:90%;"  src="../images/tragediaGregaFHC.png">
@@ -32,9 +39,10 @@
 
 
       <article id="fhc" >
-      <h1 ><a href="#fhc">FHC, uma tragédia quase grega.</a></h1>
+     
       
       <p> Frederico Firmo</p>
+
       <time datetime"22-09-2018">22 SET 2018</time>
       <br>
 
