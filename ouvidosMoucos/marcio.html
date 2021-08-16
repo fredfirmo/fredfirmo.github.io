@@ -1,39 +1,142 @@
-<!DOCTYPE html>
-<html>
 
-<title>marcio</title>
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
 
-<head>
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
 
+      Thanks!
+    -->
 
+    <!-- SEO -->
+    <title>Marcio Santos</title>
+    <meta name="description" content="WebSlides is about telling stories. Create longform articles with ease.">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,
-700,700i,900,900i">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
 
-<link rel="stylesheet" href="../css/stylesBlog/reset.css">
-<link rel="stylesheet" href="../css/stylesBlog/~debug.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-image.css">
-<link rel="stylesheet" href="../css/stylesBlog/article.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-text.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-share.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-figure.css">
-<style >
-blockquote {margin-left: 100px;
-             font-size:16px; 
-             font-style:italic; }
-a.link{ 
-color :blueviolet;
-}             
-</style>
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="../static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="https://webslides.tv/demos/why-webslides">
+
+    <!-- EDIT -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="WebSlides Demo: Longforms" />
+
+    <!-- EDIT -->
+    <meta property="og:description" content="Create longform articles with ease. Just the essentials.">
+
+    <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-03-28T18:24:48">
+
+    <!-- EDIT -->
+    <meta property="og:image" content="../static/images/share-webslides.jpg" >
+
+    <!-- EDIT -->
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="429">
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@webslides">
+
+    <!-- EDIT -->
+    <meta name="twitter:creator" content="@jlantunez">
+
+    <!-- EDIT -->
+    <meta name="twitter:title" content="WebSlides Demo: Longforms">
+
+    <!-- EDIT -->
+    <meta name="twitter:description" content="Create longform articles with ease. Just the essentials.">
+
+    <!-- EDIT -->
+    <meta name="twitter:image" content="../static/images/share-webslides.jpg">
+
+    <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="../static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="../static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="../static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="../static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="../static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="../static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="../static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+    
+    <style>
+    blockquote {
+  background: black;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+    
+    </style>
 
   </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        /<p class="logo"><a href="../index.html" title="WebSlides">WebSlides</a></p>
+        <ul>
+          <li class="github">
+            <a rel="external" href="https://github.com/webslides/webslides" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>WebSlides</em>
+            </a>
+          </li>
+          <li class="twitter">
+            <a rel="external" href="https://twitter.com/webslides" title="Twitter">
+              <svg class="fa-twitter">
+                <use xlink:href="#fa-twitter"></use>
+              </svg>
+              <em>@WebSlides</em>
+            </a>
+          </li>
+          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <main role="main">
+      <article>
+       
+        <section class="bg-black">
+          <!--.wrap.longform (width:72rem=720px) = Better -->
    <body class="w3-black">
    <div class="wrapper">
       <div class="box">
@@ -54,14 +157,14 @@ color :blueviolet;
 
 
 
-<div>
+<div class="wrapper size-70 " style="margin-left:200px">
 
-<p> O professor Márcio Santos é Doutor em Física, pesquisador com vários trabalhos publicados na área, com pós doutoramento na Universidade de Aveiro .<a href="http://lattes.cnpq.br/4680735780790091"> (vide  Curriculum Lattes)</a> professor bastante respeitado, foi professor na modalidade a distância em várias disciplinas produziu muito material didático e foi muito bem avaliado pelos alunos. Por esta razão em 2012 foi eleito  pelo Colegiado do Curso de Física  como Coordenador do Curso de Ensino a Distância substituindo a  professora Dra. Sonia Maria S C de Souza Cruz  que havia sido  Coordenadora dos Cursos de Física  presencial e a distância de 2006 a 2012. 
+<p> O professor Márcio Santos é Doutor em Física, pesquisador com vários trabalhos publicados na área, com pós doutoramento na Universidade de Aveiro .<a href="http://lattes.cnpq.br/4680735780790091"> (vide  Curriculum Lattes)</a> professor bastante respeitado, foi professor na modalidade a distância em várias disciplinas produziu muito material didático e foi muito bem avaliado pelos alunos. Por esta razão em 2012 foi <strong> eleito  pelo Colegiado do Curso de Física  como Coordenador do Curso de Ensino a Distância </strong> substituindo a  professora Dra. Sonia Maria S C de Souza Cruz  que havia sido  Coordenadora dos Cursos de Física  presencial e a distância de 2006 a 2012. 
 </p>
 
 <p>
 
-Marcio Santos permaneceu  na Coordenação do Curso de Física de 2012 até  final de 2014 quando se afastou para fazer um  pós-doutoramento no exterior. A coordenação foi então ocupada pelo prof.  José Ricardo Marinelli que  não é  citado no processo. Este é um dado importante porque o MP e PF  criou uma fantasiosa história de que  Márcio de que  Marcio e Sonia  haviam formado uma organização criminosa para fraudar licitações na locação de veículos. Um dos argumentos da formação da organização criminosa foi  que, ao sair de um cargo Sonia sempre teria colocado Márcio em seu lugar.  Segundo esta acusação Márcio haveria sido colocado no cargo de Coordenador do curso de Fisica, e no final de 2016 teria substituído  Sonia no cargo de Coordenador UAB.  Acusação não menciona que Marcio cumpriu o seu mandato e se afastou do país, assim como não levou em conta que Márcio foi convidado por Cancellier ao cargo de Coordenador UAB, enquanto Sonia foi convidada pela prof Roselane Neckel e foi exonerada por Cancellier.
+Marcio Santos permaneceu  na Coordenação do Curso de Física de 2012 até  final de 2014 quando se afastou para fazer um  pós-doutoramento no exterior. A coordenação foi então ocupada pelo prof.  José Ricardo Marinelli que  não é  citado no processo. Este é um dado importante porque o MP e PF  criou uma fantasiosa história de que  Marcio e Sonia  haviam formado uma organização criminosa para fraudar licitações na locação de veículos. Um dos argumentos da formação da organização criminosa foi  que, ao sair de um cargo Sonia sempre teria colocado Márcio em seu lugar.  Segundo esta acusação Márcio haveria sido colocado no cargo de Coordenador do curso de Fisica pela professora Sonia, e no final de 2016 a professora Sonia teria pretensamente o colocado  no cargo de Coordenador UAB.  Acusação não menciona que Marcio cumpriu o seu mandato e se afastou do país, assim como não levou em conta que Márcio foi convidado por Cancellier ao cargo de Coordenador UAB, enquanto Sonia foi convidada pela prof Roselane Neckel e foi exonerada por Cancellier.
 </p>
  <p>
 No final de  2016 com a mudança na reitoria, o prof Marcio Santos  havia retornado do exterior e  foi convidado pelo reitor Cancellier a ocupar a Coordenação Adjunta da UAB, uma espécie de vice-coordenação do Coordenador UAB Rogério Silva Nunes que sucedeu a prof Sonia.
@@ -71,7 +174,7 @@ No final de  2016 com a mudança na reitoria, o prof Marcio Santos  havia retorn
 <p> No início de 2017  o reitor exonera Rogério Nunes e o substitui por Marcio Santos. Na Operação em 2017,  Marcio Santos,  único professor não ligado ao Curso de Administração  e então Coordenador UAB,  foi preso e depois afastado da Universidade por cerca de  um ano.   O resultado do processo Administrativo realizado pela CGU inocenta o professor das acusações, mas o processo criminal continua.
 </p>
 <br>
-<h3>O processo Administrativo da CGU contra Márcio Santos:<br>  a destruição da acusação de formação de ORCRIM.</h3>
+<h4>O processo Administrativo da CGU contra Márcio Santos:<br>  a destruição da acusação de formação de ORCRIM.</h4>
 <br>
 <p>
    Com um processo em andamento no TCU/CGU e outro na esfera criminal, não houve uma manifestação da universidade em defesa e nem mesmo realizou  um processo interno para  averiguar e esclarecer os fatos  durante muito tempo.
@@ -81,7 +184,7 @@ No final de  2016 com a mudança na reitoria, o prof Marcio Santos  havia retorn
  
 
 
-<h3>O processo Administrativo da CGU contra Márcio Santos:<br>  a destruição da acusação de formação de ORCRIM.</h3>
+
 </p><p>
   Apenas no   final de 2018 se instaurou um processo administrativo na Universidade para apurar as acusações. Este processo seria fundamental para  demonstrar a iniquidade de várias acusações. Uma mera clarificação das responsabilidades contratuais dos acusados e da fundação seria suficiente para refutar a maior parte das acusações. O  processo administrativo também permitiria a universidade tomar uma posição. Mas, no início de 2019, devido  a conflitos entre CGU e reitoria, a respeito da escolha do  novo corregedor, levou a um golpe da CGU   que,  violando a autonomia universitária,  avocou os processos administrativos ligados à operação Ouvidos Moucos. A CGU cria então comissões de inquérito formadas por seus auditores financeiros. 
 
@@ -126,17 +229,13 @@ Importante  salientar que a  sentença da CGU, ao afirmar que não houve crime, 
 
 </p>
 
-<br>
-<p></p>
+
 </div>
 
 </article>
 
 
 
-</p>
-</div>
-</div>
 
 
 </body>

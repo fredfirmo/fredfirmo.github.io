@@ -1,60 +1,163 @@
-<!DOCTYPE html>
-<html>
 
-<title>Lucia</title>
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
 
-<head>
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
 
+      Thanks!
+    -->
 
+    <!-- SEO -->
+    <title>Lucia Beatriz</title>
+    <meta name="description" content="WebSlides is about telling stories. Create longform articles with ease.">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,
-700,700i,900,900i">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
 
-<link rel="stylesheet" href="../css/stylesBlog/reset.css">
-<link rel="stylesheet" href="../css/stylesBlog/~debug.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-image.css">
-<link rel="stylesheet" href="../css/stylesBlog/article.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-text.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-share.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-figure.css">
-<style >
-blockquote {margin-left: 100px;
-             font-size:16px; 
-             font-style:italic; }
-a.link{ 
-color :blueviolet;
-}             
-</style>
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="../static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="https://webslides.tv/demos/why-webslides">
+
+    <!-- EDIT -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="WebSlides Demo: Longforms" />
+
+    <!-- EDIT -->
+    <meta property="og:description" content="Create longform articles with ease. Just the essentials.">
+
+    <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-03-28T18:24:48">
+
+    <!-- EDIT -->
+    <meta property="og:image" content="../static/images/share-webslides.jpg" >
+
+    <!-- EDIT -->
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="429">
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@webslides">
+
+    <!-- EDIT -->
+    <meta name="twitter:creator" content="@jlantunez">
+
+    <!-- EDIT -->
+    <meta name="twitter:title" content="WebSlides Demo: Longforms">
+
+    <!-- EDIT -->
+    <meta name="twitter:description" content="Create longform articles with ease. Just the essentials.">
+
+    <!-- EDIT -->
+    <meta name="twitter:image" content="../static/images/share-webslides.jpg">
+
+    <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="../static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="../static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="../static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="../static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="../static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="../static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="../static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+    
+    <style>
+    blockquote {
+  background: black;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+    
+    </style>
 
   </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        /<p class="logo"><a href="../index.html" title="WebSlides">WebSlides</a></p>
+        <ul>
+          <li class="github">
+            <a rel="external" href="https://github.com/webslides/webslides" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>WebSlides</em>
+            </a>
+          </li>
+          <li class="twitter">
+            <a rel="external" href="https://twitter.com/webslides" title="Twitter">
+              <svg class="fa-twitter">
+                <use xlink:href="#fa-twitter"></use>
+              </svg>
+              <em>@WebSlides</em>
+            </a>
+          </li>
+          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <main role="main">
+   
+       
+        <section class="bg-black">
+          <!--.wrap.longform (width:72rem=720px) = Better -->
    <body class="w3-black">
-   <div class="wrapper" style="margin-bottom:30px;">
+   <div class="wrapper">
       <div class="box">
     
-<h1> Lúcia Beatriz</h1>
+<h1> Lucia Beatriz</h1>
   </div>
 </div>
 <hr>
 
     
-    </div>
-
+   
+    <article id=" Lucia" >
 
 <div>
       <time datetime"18-07-2021">18 JUL 2021</time>
       <p><strong>Frederico Firmo</strong></p>
 </div>
 
-<article>
 
-<div>
+
+<div class="wrapper size-70 " style="margin-left:200px">
 
 
 
@@ -62,6 +165,7 @@ color :blueviolet;
 </p>
 <p> A operação ouvidos moucos criminalizou todos os serviços de contacto entre Secretaria do Curso  e FAPEU e os contactos com prestadoras de serviço.  As correspondências e   ordens de serviços entre secretaria e a funcionária da fundação, responsável pelo recebimento das solicitações de transporte,   foram  acusadas de serem indícios e ou evidências de uma organização criminosa para fraudar licitações e privilegiar empresas. 
 </p>
+<p> Aparentemente sua inclusão  no processo se deu apenas porque como secretária fazia os contactos com servidores da FAPEU, para encaminhar as solicitações do curso.
 </div>
 
 </article>

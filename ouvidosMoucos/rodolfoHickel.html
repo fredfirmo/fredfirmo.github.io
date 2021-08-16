@@ -1,64 +1,163 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Hickel</title>
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
 
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
 
-<head>
+      Thanks!
+    -->
 
+    <!-- SEO -->
+    <title>Hickel</title>
+    <meta name="description" content="WebSlides is about telling stories. Create longform articles with ease.">
 
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,
-700,700i,900,900i">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
 
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="../static/css/webslides.css">
 
-<link rel="stylesheet" href="../css/stylesBlog/reset.css">
-<link rel="stylesheet" href="../css/stylesBlog/~debug.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-image.css">
-<link rel="stylesheet" href="../css/stylesBlog/article.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-text.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-share.css">
-<link rel="stylesheet" href="../css/stylesBlog/article-figure.css">
-<style >
-blockquote {margin-left: 100px;
-             font-size:16px; 
-             font-style:italic; }
-a.link{ 
-color :blueviolet;
-}             
-</style>
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="https://webslides.tv/demos/why-webslides">
+
+    <!-- EDIT -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="WebSlides Demo: Longforms" />
+
+    <!-- EDIT -->
+    <meta property="og:description" content="Create longform articles with ease. Just the essentials.">
+
+    <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-03-28T18:24:48">
+
+    <!-- EDIT -->
+    <meta property="og:image" content="../static/images/share-webslides.jpg" >
+
+    <!-- EDIT -->
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="429">
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@webslides">
+
+    <!-- EDIT -->
+    <meta name="twitter:creator" content="@jlantunez">
+
+    <!-- EDIT -->
+    <meta name="twitter:title" content="WebSlides Demo: Longforms">
+
+    <!-- EDIT -->
+    <meta name="twitter:description" content="Create longform articles with ease. Just the essentials.">
+
+    <!-- EDIT -->
+    <meta name="twitter:image" content="../static/images/share-webslides.jpg">
+
+    <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="../static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="../static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="../static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="../static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="../static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="../static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="../static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+    
+    <style>
+    blockquote {
+  background: black;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+    
+    </style>
 
   </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        /<p class="logo"><a href="../index.html" title="WebSlides">WebSlides</a></p>
+        <ul>
+          <li class="github">
+            <a rel="external" href="https://github.com/webslides/webslides" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>WebSlides</em>
+            </a>
+          </li>
+          <li class="twitter">
+            <a rel="external" href="https://twitter.com/webslides" title="Twitter">
+              <svg class="fa-twitter">
+                <use xlink:href="#fa-twitter"></use>
+              </svg>
+              <em>@WebSlides</em>
+            </a>
+          </li>
+          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <main role="main">
+   
+       
+        <section class="bg-black">
+          <!--.wrap.longform (width:72rem=720px) = Better -->
    <body class="w3-black">
-   <div class="wrapper" style="margin-bottom:30px;">
+   <div class="wrapper">
       <div class="box">
     
-<h1> Coorregedor Rodolfo  Hickel</h1>
+<h1> Rodolfo Hickel</h1>
   </div>
 </div>
 <hr>
 
     
    
-    <article id="hickel" >
+    <article id=" Hickel" >
 
 <div>
       <time datetime"18-07-2021">18 JUL 2021</time>
       <p><strong>Frederico Firmo</strong></p>
 </div>
 
-<div>
 
 
+<div class="wrapper size-70 " style="margin-left:200px">
 
-<body class="w3-black">
-<div class="w3-container w3-cell">
-<div class="w3-wrapper  " style="width:80%; margin-left:10%; " >
 
 
 
@@ -68,22 +167,23 @@ color :blueviolet;
 Em entrevista a imprensa o  Corregedor  não se constrange em  fazer afirmações  que se parecem mais com conversa de corredor. Segundo ele  denúncias foram  apresentadas em colegiados e conselhos da universidade e às chefias responsáveis,  que nunca tomaram providências. Porém    não aponta nenhuma denúncia por escrito entregue a uma chefia e ou registrada nas atas dos colegiados e conselhos.  Ele se refere  a comentários de ouvi dizer  sobre  reuniões e ou denúncias de corredor.  </p>
 <p>
 
-Com um foco voltado contra o curso de Administração,  acusa  o chefe do Departamento de Ciências Administração, Eduardo Lobo, que foi um dos presos. Segundo Hickel  o chefe de Departamento estava  ciente das denúncias desde do final de 2016 mas não havia tomado nenhuma atitude.  Nesta frase ele parece justificar a violência da prisão alegando uma suposta falta de ação de diante de uma  suposta ciência das denúncias.</p>
+Com o foco voltado contra o curso de Administração,  acusa  o chefe do Departamento de Ciências Administração, Eduardo Lobo, que foi um dos presos. Segundo Hickel  o chefe de Departamento estava  ciente das denúncias desde do final de 2016 mas não havia tomado nenhuma atitude.  Nesta frase ele parece justificar a violência da prisão alegando uma suposta falta de ação de diante de uma  suposta ciência das denúncias.</p>
 
-Com um foco voltado contra o curso de Administração,  acusa  o chefe do Departamento de Ciências Administração, Eduardo Lobo, que foi um dos presos. Segundo Hickel  o chefe de Departamento estava  ciente das denúncias desde do final de 2016 mas não havia tomado nenhuma atitude.  Nesta frase ele parece justificar a violência da prisão alegando  uma suposta ciência de denúncias.</p>
-
+<p>
 Para dar margem a ideia de que a administração da universidade estava encobrindo fatos ele lembra que antes mesmo que a corregedoria fora criada, em 2013 já houveram denúncias de suspeitas similares ligadas ao EaD. Como não falou explicitamente quais as denúncias 2013, imagina-se que foi a denúncia de 2014  que gerou uma auditoria da CGU que encaminhou uma serie de questionamentos e que foi  devidamente respondida  pela Universidade. Por outro lado a CGU não apresentou nenhum parecer sobre a  resposta enviada..  Mas Hickel vai propagar a ideia de que  estas denúncias foram  escondidas e jamais apuradas.</p>
 
 <p>
 Acusando o Reitor de obstrução de investigação Hickel praticamente confessa que   escondia  informações sobre  a investigação  do Reitor .    Se queixou à delegada que   o reitor lhe retirou uma gratificação de mil reais mensais em represália, por ele, corregedor, não revelar dados  ao Reitor sobre a investigação que fazia no EAD .  Acusou o  Reitor de avocar processos e ameaçar exonerá-lo</p> .
+
 <p>
- Sabe-se que  o reitor  recebeu várias  reclamações de professores contra   à postura intimidatória do Corregedor.  Adepto da truculência e intimidação Hickel convocava  professores pressionava  insistentemente   a fazer denúncias. Tal era o grau  de intimidação do Corregedor, que  após algum tempo professores quando intimados levavam seus advogados. As ações de Hickel sempre extrapolaram e abusaram do poder e me parece que o  pedido de exoneração contrariamente a acusação de obstrução da justiça se deve  a este comportamento.</p>
-<p>
- Sabe-se que  o reitor  recebeu várias  reclamações de professores contra   à postura intimidatória do Corregedor.  Adepto da truculência e intimidação Hickel convocava  professores pressionava  insistentemente   a fazer denúncias. Tal era o grau  de intimidação do Corregedor, que  após algum tempo professores quando intimados levavam seus advogados. As açoes de Hickel sempre extrapolaram e abusaram do poder e me parece que o  pedido de exoneração contrariamente a acusação de obstrução da justiça se deve  a este comportamento.</p>
+ Sabe-se que  o reitor  recebeu várias  reclamações de professores contra   à postura intimidatória do Corregedor.  Adepto da truculência e intimidação, Hickel convocava  professores e os pressionava  insistentemente   a fazer denúncias.  Tal era o grau  de intimidação do Corregedor, que  após algum tempo professores quando intimados levavam seus advogados. As açoes de Hickel sempre extrapolaram e abusaram do poder e me parece que o  pedido de exoneração contrariamente a acusação de obstrução da justiça se deve  a este comportamento.</p>
 
  <p>
 Apesar de não revelar  dados da investigação à autoridade máxima da Universidade , Hickel vai afirmar que  reitoria teria tentado obstruir andamento da investigação por diversas vias: “Houve várias tentativas de obstruir e dificultar o trabalho da corregedoria. Infelizmente, se tentou avocar processos, tirar processos daqui”.
 A postura e ações de Hickel  jamais foram averiguadas e ou contestadas pelo MPF e ou pela delegada Marena. O Reitor jamais foi convocado para contraditar. O Reitor e professores foram simplesmente presos. </p>
+
+<p> É surpreendente como a simples palavra do Corregedor junto ao MP e CGU, foi suficiente para prender e afastar o Reitor da universidade. Nas notícias de jornais, a razão da prisão do reitor se deveu a uma suposta tentativa de abafar investigações do Corregedor. A invasão da polícia, levando documentos, prendendo e depois afastando se baseia na acusação de que soltos ou em contacto com a Universidade  os professores e servidores obstruiriam as investigações.</p>
+
 
 
 
@@ -94,10 +194,4 @@ A postura e ações de Hickel  jamais foram averiguadas e ou contestadas pelo MP
 </body>
 </html>
 
-
-</div>
-</div>
-
-</body>
-</html>
 
