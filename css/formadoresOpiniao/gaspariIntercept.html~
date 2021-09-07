@@ -1,59 +1,128 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<html>
-<title>W3.CSS Template</title>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,
-700,700i,900,900i">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
 
-<link rel="stylesheet" href="../stylesBlog/reset.css">
-<link rel="stylesheet" href="../stylesBlog/~debug.css">
-<link rel="stylesheet" href="../stylesBlog/article-image.css">
-<link rel="stylesheet" href="../stylesBlog/article.css">
-<link rel="stylesheet" href="../stylesBlog/article-text.css">
-<link rel="stylesheet" href="../stylesBlog/article-share.css">
-<link rel="stylesheet" href="../stylesBlog/article-figure.css">
-<style >
-blockquote {margin-left: 100px;
-             font-size:16px; 
-             font-style:italic; }
-a.link{ 
-color :blueviolet;
-}             
-</style>
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
 
-  </head>
-   <body class="w3-black">
-   <div class="wrapper">
-      <div class="box">
-     <h1 ><a href="#gaspari"> Gaspari contra o Intercept.</a></h1>
-  </div>
-</div>
+      Thanks!
+    -->
+
+    <!-- SEO -->
+    <title>WebSlides Demo: Longforms</title>
+    <meta name="description" content="WebSlides is about telling stories. Create longform articles with ease.">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="../static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="https://webslides.tv/demos/why-webslides">
+
+    <!-- EDIT -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="WebSlides Demo: Longforms" />
+
+    <!-- EDIT -->
+    <meta property="og:description" content="Create longform articles with ease. Just the essentials.">
+
+    <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-03-28T18:24:48">
+
+    <!-- EDIT -->
+    <meta property="og:image" content="../static/images/share-webslides.jpg" >
+
+    <!-- EDIT -->
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="429">
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@webslides">
+
+    <!-- EDIT -->
+    <meta name="twitter:creator" content="@jlantunez">
+
+    <!-- EDIT -->
+    <meta name="twitter:title" content="WebSlides Demo: Longforms">
+
+    <!-- EDIT -->
+    <meta name="twitter:description" content="Create longform articles with ease. Just the essentials.">
+
+    <!-- EDIT -->
+    <meta name="twitter:image" content="../static/images/share-webslides.jpg">
+
+    <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="../static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="../static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="../static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="../static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="../static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="../static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="../static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+
+  </head>  
+   <body>
+
+
+
+    <main role="main">
+      <article>
+      <!-- Colocar a figura  nesta section-->
+      
+
+        
+        <!-- Começo do texto -->
+          
+    
+        <section class="bg-black">
+         <div class="wrap longform">
+         
+    
+        <figure class="aligncenter">
+          <img  style="padding:10px 10px 10px 100px; width:50%; " src="../images/eliogaspari.jpg" >
+    </figure>
+   
+        
+          <!--.Titulo -->
+
+       
+   
+    
+     <h2 style="text-align:center">Gaspari contra o Intercept.</h2>
+    
+   
 <hr>
-
-    <div class="wrapper">
-    <div class=" box">
-    <img  style="padding:10px 10px 10px 100px; width:50%; " src="../images/eliogaspari.jpg" >
-    </div>
-
-    </div>
-
-
-
-
-
-    <article id="Gaspari" >
-
-<div>
+<div class="pull-left">
       <time datetime"23-06-2019">23 JUN 2019</time>
       <p><strong>Frederico Firmo</strong></p>
 </div>
-
- 
+<hr>
+        
+        
+       
  
 
    
@@ -64,19 +133,19 @@ Folheando a Folha me deparo com Elio Gaspari, uma arma de peso na construção d
 </p><p>
 Eu diria que Gaspari trabalha com a percepção pública  e jamais com os fatos. Os fatos já divulgados são estarrecedores, não por serem plausíveis, mas por serem de conhecimento público e já sobejamente divulgados. Mas apesar das, agora divulgadas,  55 ações contra abusos, que já correram ou correm  contra o impoluto e "eficaz" juiz de Curitiba, Gaspari prefere alimentar a dúvida e colocar em relevo  o vocábulo eficaz.
 </p><p>
-Não há adjetivos ou indignação com os fatos, apenas uma minimização deles, e subrepticiamente alimenta a idéia de falsidade das gravações. Mas isto só demonstra o papel de Gaspari e outros que  raramente se debruçam sobre os fatos e ou sobre o conteúdo. Seu artigo se encaixa na série de artigos de formadores de opinião, que querem transformar tudo isto apenas no que disse FHC: "uma tempestade em copo d'agua" ou como escreveu o coach do Ministro: " A montanha pariu um rato" sem saber que um rato pode apavorar e até derrubar um paquiderme.
+Não há adjetivos ou indignação com os fatos, apenas uma minimização deles, e sub-repticiamente alimenta a ideia de falsidade das gravações. Mas isto só demonstra o papel de Gaspari e outros que  raramente se debruçam sobre os fatos e ou sobre o conteúdo. Seu artigo se encaixa na série de artigos de formadores de opinião, que querem transformar tudo isto apenas no que disse FHC: "uma tempestade em copo d'agua" ou como escreveu o coach do Ministro: " A montanha pariu um rato" sem saber que um rato pode apavorar e até derrubar um paquiderme.
 </p><p>
-Gaspari ataca o ponto insinuando que  após o impacto inicial e o estabelecimento de um certo terror pelos atingidos, a reação se instaura tentando resgatar o passado recente quando todas as arbitrariedades explícitas eram  cinicamente defendidas pelos autores e pela mídia como medidas necessárias para se chegar a um fim. Durante muito tempo a mídia ajudou a criar um clima quase que rotineiro de violações. A mídia e criadores de opinião reverberavam a idéia, criando a percepção  de que violar a constituição é um instrumento "eficaz" e corriqueiro. Gaspari um "assim dizente" democrata, bate palmas para a frase do  Juiz:" não vejo nada demais no que está sendo divulgado."
+Gaspari ataca o ponto insinuando que  após o impacto inicial e o estabelecimento de um certo terror pelos atingidos, a reação se instaura tentando resgatar o passado recente quando todas as arbitrariedades explícitas eram  cinicamente defendidas pelos autores e pela mídia como medidas necessárias para se chegar a um fim. Durante muito tempo a mídia ajudou a criar um clima quase que rotineiro de violações. A mídia e criadores de opinião reverberavam a ideia, criando a percepção  de que violar a constituição é um instrumento "eficaz" e corriqueiro. Gaspari um "assim dizente" democrata, bate palmas para a frase do  Juiz:" não vejo nada demais no que está sendo divulgado."
 </p><p>
-A  violenta campanha de assassinato de reputações   não sensibilizou Gaspari. A violência de um juiz ao criminalizar um acervo presidencial, a de sua força tarefa invadindo casas, tomando tabletes de crianças, intimidando pessoas até em cadeiras de roda, para atingir  de qualquer forma, familiares do presidente. Prenderam  uma cunhada desafeta de Vaccari, na esperança de extorquir alguma informação. A prisão e liberação injustificada de representantes da Mossack Fonseca, não antes de deixar na mídia a ilação de que Lula tinha uma ligação com uma empresa de lavagem de dinheiro.  A perseguição e criminalização de todos os amigos do presidente. A violação da segurança presidencial, ao grampear um telefone do palácio do planalto. A invenção de fake news pela grande imprensa. Afinal de contas, foi a grande imprensa, com suas capas de sexta-feira, que inventou o conceito. Tornaram corriqueiro, conduções  coercitivas injustificáveis e ou prisões temporárias   e outras violências, como levar professores universitários e um reitor para um presídio, obrigando-os a uma revista íntima  sem que até hoje o ato tenha sido justificado moral, ética e legalmente. Tudo isto  em nome da  eficácia. Surpreendentemente todos consideraram eficaz a libertação de ladrões confessos, denominados delatores. Estas e outras tantas violações, foram divulgadas  em tom de vitória e alguns dizem que estas ações são um divisor de água na história do país o anúncio de novos tempos.
+A  violenta campanha de assassinato de reputações   não sensibilizou Gaspari. A violência de um juiz ao criminalizar um acervo presidencial, a de sua força tarefa invadindo casas, tomando tabletes de crianças, intimidando pessoas até em cadeiras de roda, para atingir  de qualquer forma, familiares do presidente. Prenderam  uma cunhada desafeta de Vaccari, na esperança de extorquir alguma informação. A prisão e liberação injustificada de representantes da Mossack Fonseca, não antes de deixar na mídia a ilação de que Lula tinha uma ligação com uma empresa de lavagem de dinheiro,  a perseguição e criminalização de todos os amigos do presidente. A violação da segurança presidencial, ao grampear um telefone do palácio do planalto. A invenção de fake news pela grande imprensa. Afinal de contas, foi a grande imprensa, com suas capas de sexta-feira, que inventou o conceito. Tornaram corriqueiro, conduções  coercitivas injustificáveis e ou prisões temporárias   e outras violências, como levar professores universitários e um reitor para um presídio, obrigando-os a uma revista íntima  sem que até hoje o ato tenha sido justificado moral, ética e legalmente. Tudo isto  em nome da  eficácia. Surpreendentemente todos consideraram eficaz a libertação de ladrões confessos, denominados delatores. Estas e outras tantas violações, foram divulgadas  em tom de vitória e alguns dizem que estas ações são um divisor de água na história do país, o anúncio de novos tempos.
 </p><p>
-Numa população onde as arbitrariedades são tão comuns, onde o abuso de poder é cotidiano, é fácil criar uma percepção de normalidade em todos estes atos. Num cotidiano onde os telejornais divulgam  violações de direitos, onde um governador e um presidente defendem o uso de snipers e drones armados,  que tratam comunidades como territórios ocupados, onde uma família pode ser metralhada e a notícia anuncia que os autores dos tiros se enganaram  pensando que era um carro de um bandido. Os abusos foram de tal forma normalizados que até mesmo quem  sofre  abusos diários faz coro com  FHC, e considera  que  é apenas " uma tempestade em copo d'água". Quando os abusos ocorrem com os outros são justificáveis, mas quando ocorre com alguns dos nossos, devemos questionar. Assim, imbuídos de um espírito legal, muitos, corretamente,  consideraram como  abuso o ocorrido com Temer,  mas houve pouca ou nenhuma indignação  com a recusa do magistrado em absolver a falecida Marisa, mesmo diante do tratamento dado a  Claudia Cruz.
+Numa população onde as arbitrariedades são tão comuns, onde o abuso de poder é cotidiano, é fácil criar uma percepção de normalidade em todos estes atos. Num cotidiano onde os telejornais divulgam acriticamente violações de direitos, onde um governador e um presidente defendem o uso de snipers e drones armados,  que tratam comunidades como territórios ocupados, onde uma família pode ser metralhada e a notícia anuncia que os autores dos tiros se enganaram  pensando que era o carro de um bandido. Os abusos foram de tal forma normalizados que até mesmo quem  sofre  abusos diários faz coro com  FHC, e considera  que  é apenas " uma tempestade em copo d'água". Quando os abusos ocorrem com os outros são justificáveis, mas quando ocorre com alguns dos nossos, devemos questionar. Assim, imbuídos de um espírito legal, muitos, corretamente,  consideraram como  abuso o ocorrido com Temer,  mas houve pouca ou nenhuma indignação  com a recusa do magistrado em absolver a falecida Marisa, mesmo diante do tratamento dado a  Claudia Cruz.
 </p><p>
-A aceitação de que os fatos divulgados pelo  Intercept são graves vai ter de superar esta  percepção pública tão disseminada. A maioria a população  reconhece os abusos mas uma parcela não se importa com eles.  Tudo que já foi divulgado e tudo que já é conhecido deveria ser suficiente em um país onde a percepção não tivesse sido tão violentada.  
+A aceitação de que os fatos divulgados pelo  Intercept são graves vai ter de superar esta  percepção pública tão disseminada. A maioria da população  reconhece os abusos mas uma parcela não se importa com eles.  Tudo que já foi divulgado e tudo que já é conhecido deveria ser suficiente em um país onde a percepção não tivesse sido tão violentada.  
 </p><p>
 A reação ao Intercept jamais fala de fatos, de ética ou de moral e muito menos da lei, a reação trabalha apenas com a narrativa que alimentou e foi alimentada pelos abusos sucessivos e que tenta transformá-los em normalidade.  
 
-O fantasma da Casa Grande volta a dominar divulgando a idéia de que o castigo no pelourinho é normal.</p>
+O fantasma da Casa Grande volta a dominar divulgando a ideia de que o castigo no pelourinho é normal.</p>
 </article>
   </body>
 
